@@ -142,7 +142,6 @@ def apply_move(board, direction_key):
        3. TODO 1：盤面外なら動かさず、盤面内なら hero を更新する
        4. TODO 2：壁チェックを追加する
        5. TODO 3：次が箱なら push_crate() を使う
-
     正しく動けるときだけ履歴に位置と箱集合のコピーを保存し、stepsを増やす。
     """
     if direction_key not in KEY_TO_VECTOR:
