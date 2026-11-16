@@ -132,7 +132,6 @@ def push_crate(board, crate_position, vector):
     # TODO 3: 箱の行き先を調べ、移動可能なら crates を更新する
     return False
 
-
 def apply_move(board, direction_key):
     """TODO 1〜3：プレイヤーの移動。引数：board, WASDの1文字。戻り値：成功ならTrue。
 
